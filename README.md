@@ -80,3 +80,10 @@ void loop() {
 • Home gas safety systems
 
 
+## Online Simulation
+
+Run the project online:
+
+[Open Wokwi Simulation](https://wokwi.com/projects/457587883476598785)
+
+
