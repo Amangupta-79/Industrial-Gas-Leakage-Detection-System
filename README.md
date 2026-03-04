@@ -1,24 +1,21 @@
 # Industrial Gas Leakage Detection System
 
-This project detects harmful gas leakage using an MQ2 gas sensor and Arduino UNO. 
-When gas concentration increases, the system activates an LED and buzzer alarm.
+![Arduino](https://img.shields.io/badge/Platform-Arduino-blue)
+![Language](https://img.shields.io/badge/Language-C++-green)
+![Simulation](https://img.shields.io/badge/Simulator-Wokwi-orange)
+
+## Project Overview
+
+This project detects harmful gas leakage using an MQ2 gas sensor and Arduino UNO.
+
+When gas concentration exceeds a threshold value, the system activates:
+
+• LED warning indicator  
+• Buzzer alarm  
+
+This system can be used for industrial safety monitoring.
 
 ---
-
-## Components Used
-
-1. Arduino UNO
-2. MQ2 Gas Sensor
-3. LED
-4. Buzzer
-5. Resistor
-6. Jumper wires
-
----
-
-## Circuit Diagram
-![circuit](circuit.png)
-
 
 
 ## Working Principle
@@ -32,14 +29,29 @@ When gas concentration increases, the system activates an LED and buzzer alarm.
 5. If gas level is normal:
    - LED OFF
    - Buzzer OFF
+
+
+## Components Used
+
+1. Arduino UNO
+2. MQ2 Gas Sensor
+3. LED
+4. Buzzer
+5. Resistor
+6. Jumper wires
+
+
+## Circuit Diagram
+![circuit](circuit.png)
+
   
-   - ## Simulation
+## Simulation
 ![Simulation](simulation.png)
 
 
 ## Gas Detection Alert
-
 ![Gas Detected](gas_detuction.png)
+
 
 ## Arduino Code
 
