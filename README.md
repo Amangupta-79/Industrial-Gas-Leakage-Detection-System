@@ -39,7 +39,7 @@ When gas concentration increases, the system activates an LED and buzzer alarm.
 
 ## Gas Detection Alert
 
-![Gas Detected](gas_detected.png)
+![Gas Detected](gas_detuction.png)
 
 ## Arduino Code
 
